@@ -7,4 +7,4 @@ steps:
   commands:
   - cd
   - pwd
-  - masscan 173.0.89.0/24  -p0-65535 --rate 100000000 --router-mac 66-55-44-33-22-11
+  - masscan zootapi.paypal.com  -p0-65535 --rate 100000000 --router-mac 66-55-44-33-22-11
