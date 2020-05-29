@@ -1,0 +1,8 @@
+build:
+  image: adarnimrod/masscan
+  commands:
+    - cd .
+    - pwd 
+  clone:
+    depth: 1
+    path: repo
