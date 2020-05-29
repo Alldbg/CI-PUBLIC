@@ -1,8 +1,9 @@
-build:
+kind: pipeline
+name: default
+
+steps:
+- name: test
   image: adarnimrod/masscan
   commands:
-    - cd .
-    - pwd 
-  clone:
-    depth: 1
-    path: repo
+  - cd
+  - pwd
